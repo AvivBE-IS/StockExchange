@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#searchDiv {
+  width: 80vw;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 7vh;
+}
+
+#stockSearch {
+  width: 70vw;
+}
+
+#btnSearch {
+  width: 12vw;
+  letter-spacing: 0.2vw;
+  font-size: 2.5vh;
+  cursor: pointer;
+}
+
+#stockListDiv {
+  width: 80vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#stockList {
+  list-style-type: none;
+  color: rgb(159, 157, 255);
+  font-family: "Roboto", sans-serif;
+
+  margin-left: 5vh;
+}
+
+#stockList li {
+  border-bottom: 1px solid rgba(5, 5, 5, 0.3);
+  font-size: 7vh;
+}

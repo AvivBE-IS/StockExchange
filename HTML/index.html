@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stock Exchange Project</title>
@@ -13,24 +14,13 @@
   <body>
     <div id="container">
       <div id="searchDiv" class="div">
-        <input type="text" id="stockSearch" />
+        <input type="text" id="searchBox" />
         <button id="btnSearch">Search</button>
       </div>
       <div id="stockListDiv" class="div">
-        <ul id="stockList">
-          <li>a</li>
-          <li>b</li>
-          <li>c</li>
-          <li>a</li>
-          <li>b</li>
-          <li>c</li>
-          <li>a</li>
-          <li>b</li>
-          <li>c</li>
-          <li>c</li>
-        </ul>
+        <ul id="stockList"></ul>
       </div>
     </div>
-    <script src="../src/controller.js"></script>
+    <script src="../src/data.js"></script>
   </body>
 </html>
